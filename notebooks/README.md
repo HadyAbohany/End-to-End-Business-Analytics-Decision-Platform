@@ -54,7 +54,3 @@ All 31 code cells were executed sequentially with the local IPython/Python runti
 Set `data_folder` in its first code cell to your local or Colab data directory. The default points to `~/Downloads/archive-3`. This version preserves the original notebook and the same analysis-specific eligibility rules. The two dense relationship plots use transparent scatter points instead of hexagonal density bins; geographic markers use a fixed size, with order volume represented by color. These visual simplifications do not change the records included or the calculations.
 
 The step-by-step version was executed locally: all 54 code cells passed and 26 figures are embedded. Twenty-five comparison and preservation checks confirmed matching order summaries, time aggregates, delivery labels, review selection, financial reconciliation, category/seller/buyer summaries, repeat cohorts, geographic coverage and correlations. Numeric values and missingness were compared independently of harmless pandas dtype differences. Charts were visually reviewed. The original notebook and source CSVs remain unchanged.
-
-## Arabic walkthrough
-
-[Arabic cell-by-cell explanation](OLIST_EDA_CELL_BY_CELL_AR.md) explains all 88 cells in the step-by-step notebook, including each cell's purpose, relevant Python operations, saved results, chart interpretation, and limitations. Physical cell numbers are mapped to the 54 saved code execution numbers. The guide does not change the notebook or its outputs.
